@@ -1,0 +1,13 @@
+essentia-tensorflow
+laion-clap
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+tqdm
+torch
+--extra-index-url https://download.pytorch.org/whl/cpu
+librosa
+pyarrow
