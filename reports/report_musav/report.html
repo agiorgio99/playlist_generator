@@ -1,0 +1,70 @@
+<\!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Report — report_musav</title>
+  <style>
+    body  { font-family: system-ui, sans-serif; max-width: 1100px; margin: 40px auto; padding: 0 20px; color: #222; }
+    h1    { border-bottom: 2px solid #4C72B0; padding-bottom: 8px; }
+    h2    { color: #4C72B0; margin-top: 40px; }
+    table { border-collapse: collapse; margin: 12px 0; }
+    td, th { border: 1px solid #ccc; padding: 6px 14px; }
+    th    { background: #f0f4fb; }
+    section { margin-bottom: 40px; }
+  </style>
+</head>
+<body>
+  <h1>Music Collection Analysis Report</h1>
+  <p><strong>Collection:</strong> report_musav</p>
+  <p><strong>Tracks analysed:</strong> 2099</p>
+
+  <h2>Summary Statistics</h2>
+  <table>
+    <tr><th>Metric</th><th>Value</th></tr>
+    <tr><td>BPM (mean ± std)</td><td>119.155 ± 25.158</td></tr>
+<tr><td>Loudness LUFS (mean ± std)</td><td>-10.966 ± 3.552</td></tr>
+<tr><td>Danceability (mean ± std)</td><td>0.418 ± 0.395</td></tr>
+<tr><td>Voice prob (mean ± std)</td><td>0.684 ± 0.338</td></tr>
+
+  </table>
+  <p><strong>Key-profile agreement (all 3 match):</strong> 1030/2099 = 49.1%</p>
+
+  
+    <section>
+      <h2>Genre Distribution</h2>
+      <img src="figures/genre_distribution.png" alt="Genre Distribution"
+           style="max-width:100%;border:1px solid #ddd;border-radius:4px;">
+    </section>
+
+    <section>
+      <h2>Tempo Distribution</h2>
+      <img src="figures/tempo_distribution.png" alt="Tempo Distribution"
+           style="max-width:100%;border:1px solid #ddd;border-radius:4px;">
+    </section>
+
+    <section>
+      <h2>Danceability Distribution</h2>
+      <img src="figures/danceability_distribution.png" alt="Danceability Distribution"
+           style="max-width:100%;border:1px solid #ddd;border-radius:4px;">
+    </section>
+
+    <section>
+      <h2>Key / Scale Distribution</h2>
+      <img src="figures/key_scale_distribution.png" alt="Key / Scale Distribution"
+           style="max-width:100%;border:1px solid #ddd;border-radius:4px;">
+    </section>
+
+    <section>
+      <h2>Loudness Distribution</h2>
+      <img src="figures/loudness_distribution.png" alt="Loudness Distribution"
+           style="max-width:100%;border:1px solid #ddd;border-radius:4px;">
+    </section>
+
+    <section>
+      <h2>Voice vs Instrumental</h2>
+      <img src="figures/voice_instrumental.png" alt="Voice vs Instrumental"
+           style="max-width:100%;border:1px solid #ddd;border-radius:4px;">
+    </section>
+
+</body>
+</html>
